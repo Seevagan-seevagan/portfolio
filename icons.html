@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        *{
+            /* background: black; */
+            display: flex;
+            margin-top: 50px;
+        } 
+        a{
+            margin: 0 10px;
+            border-radius: 50%;
+            box-sizing: border-box;
+            background: #fff;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: .5s;
+            background: rgba(0, 0, 0, 0);
+            color: lightblue;
+            font-size: 2.5rem;
+            -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+            
+        }
+        a:hover{
+            background: lightblue;
+            color: black;
+            box-shadow: 0 0 5px rgb(109, 3, 231),
+            0 0 25px rgb(233, 6, 6),0 0 50px rgb(241, 4, 4),0 0 200px rgb(203, 3, 234);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="icons">
+        <a href="#" style="--color:#0072b1 ;"><i class='bx bxl-facebook'></i></a>
+        <a href="#" style="--color:#E1306C"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#" style="--color:#FF0050"><i class='bx bxl-linkedin-square'></i></a>
+    </div>
+</body>
+</html>
